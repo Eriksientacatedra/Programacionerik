@@ -27,16 +27,19 @@ public class Ej3_63 {
 		}
 		
 		
+		//Piramide inversa este repasar
 		
-		for(int i = 1;i<=ancho;i--) {
-			for(int u=1;u<=i;u++) {
-				System.out.print("");
-				for(int p=1;p<=u;p++) {
-					System.out.print("*");
-				}
+		for(int i=1;i<=ancho;i++) {
+			for(int u=1;u<=ancho-i;u++) {
+				System.out.print(" ");
+			}
+			for(int p=1;p<=i;p++) {
+				System.out.print("*");
 			}
 			System.out.println("");
 		}
+		
+		
 		
 		
 		scanner.close();
