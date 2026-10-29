@@ -14,7 +14,9 @@ public class Ej3_63 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Alto y ancho: "); int ancho = 0; ancho = scanner.nextInt();
+		System.out.println("Alto y ancho: "); 
+		int ancho = 0; 
+		ancho = scanner.nextInt();
 		int avance = 0;
 		
 		
