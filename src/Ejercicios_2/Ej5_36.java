@@ -1,8 +1,8 @@
 package Ejercicios_2;
-
 /*
-
+ 
 Escribe un método que diga si una palabra se lee igual al revés, comparando caracteres desde los
+extremos (sin invertir la cadena).
 extremos (sin invertir la cadena).
 
 
@@ -18,8 +18,30 @@ public class Ej5_36 {
 		Scanner scanner = new Scanner(System.in);
 		
 		String frase;
+		String reves;
+		boolean flag = true;
 		System.out.print("Introduce una frase: ");
-		frase=scanner.nextLine();
+		frase=scanner.nextLine().strip().toLowerCase();	
+		
+		System.out.println(frase);
+		
+		System.out.println("");
+		
+		for(int i = 0;i<frase.length();i++) {
+			System.out.println(frase.charAt(i) + "-" + (frase.charAt(frase.length()-(i+1))));
+			if(frase.charAt(i) != frase.charAt(frase.length()-(i+1))) {
+				
+				flag=false;
+			}
+			
+		}
+		if(flag) {
+			System.out.println("Es palindromo");
+		}
+		else {
+			System.out.println("No es palindromo");
+		}
+		
 		
 		
 		
