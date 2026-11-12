@@ -23,6 +23,10 @@ public class Ej2_55 {
 				System.out.println("");
 			}
 			
+			for(int i = 0; i<ndni.length()-1;i++) {
+				
+			}
+			
 			System.out.print(ndni);
 			System.out.println("");
 			System.out.print(ndni.length());
