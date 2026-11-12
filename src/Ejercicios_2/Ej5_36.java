@@ -21,7 +21,7 @@ public class Ej5_36 {
 		String reves;
 		boolean flag = true;
 		System.out.print("Introduce una frase: ");
-		frase=scanner.nextLine().strip().toLowerCase();	
+		frase=scanner.nextLine().strip().toLowerCase().replaceAll(" ","");	
 		
 		System.out.println(frase);
 		
