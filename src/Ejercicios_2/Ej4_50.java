@@ -11,12 +11,13 @@ import java.util.Scanner;
 public class Ej4_50 {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int num;
 		
+		System.out.print("Introduzca un numero para verificar si es perfecto: ");
+		num=scanner.nextInt();
 		
-		
-		
-		
-		
+		scanner.close();
 	}
 	
 	
