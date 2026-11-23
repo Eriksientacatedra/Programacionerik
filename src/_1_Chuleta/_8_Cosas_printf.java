@@ -3,6 +3,17 @@
 
 MÉTODOS Y FORMATOS DE System.out.printf()
 
+
+System.out.printf("texto y formato", variables);
+
+Ejemplos:
+
+System.out.printf("Tengo %d años%n", edad);
+
+System.out.printf("Me llamo %s%n", nombre);
+
+System.out.printf("Mi nota es %.2f%n", nota);
+
 CARACTERES ESPECIALES:
 
 \t       -> Tabulador
@@ -36,3 +47,4 @@ OTROS FORMATOS:
 %10s     -> Alinea el texto a la derecha
 
 */
+

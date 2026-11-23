@@ -22,15 +22,12 @@ TOTAL: 8,49
 
 
 Pista: lee los nombres con next() (una sola palabra) para no pelearte con nextLine().
+ 
   
- */
-
-import java.util.Scanner;
-
-public class Ej1_77_TicketCompra {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		//Productos -->
+  
+  
+  
+  //Productos -->
 		String producto1 = "cuaderno";
 		String producto2 = "boli";
 		String producto3 = "mochila";
@@ -40,6 +37,17 @@ public class Ej1_77_TicketCompra {
 		double precio2 = 8.49;
 		double precio3 = 8.49;
 		
+		
+ */
+
+import java.util.Scanner;
+
+public class Ej1_77_TicketCompra {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String productor="";
+		int precio = 0;
 		
 		
 		

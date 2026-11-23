@@ -752,6 +752,6 @@ rd.nextLong();       // Número long aleatorio (Entero más largo)
 
 
 */
-package Chuleta;
+
 
 

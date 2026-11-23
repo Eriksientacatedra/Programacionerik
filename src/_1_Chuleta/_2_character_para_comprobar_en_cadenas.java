@@ -10,5 +10,5 @@ Ejemplo de formacion:
 
 ///// Character.isLetterorDigit(ejemplo.charAt(i)). //////
 */
-package Chuleta;
+
 

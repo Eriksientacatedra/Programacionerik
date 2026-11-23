@@ -34,5 +34,4 @@ int numero = (int) (Math.random() * 10) + 1;  --> Formacion de numero random
 
 
 */
-package Chuleta;
 
