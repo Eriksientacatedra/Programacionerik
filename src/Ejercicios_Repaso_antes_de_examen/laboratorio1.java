@@ -2,26 +2,26 @@ package Ejercicios_Repaso_antes_de_examen;
 
 public class laboratorio1 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(System.in);
 		double suma = 0;
 		double maxima = 0;
 
 		System.out.print("Nota 1: ");
-		double nota = sc.nextDouble();
+		//double nota = sc.nextDouble();
 		suma = suma + nota;
 		if (nota > maxima) {
 			maxima = nota;
 		}
 
 		System.out.print("Nota 2: ");
-		nota = sc.nextDouble();
+		//nota = sc.nextDouble();
 		suma = suma + nota;
 		if (nota > maxima) {
 			maxima = nota;
 		}
 
 		System.out.print("Nota 3: ");
-		nota = sc.nextDouble();
+		//nota = sc.nextDouble();
 		suma = suma + nota;
 		if (nota > maxima) {
 			maxima = nota;
