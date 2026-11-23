@@ -135,6 +135,15 @@ Ejemplo de formacion:
 cadena.isEmpty()
 
 -------------------------------
+Integer --> para incluir
+*** .parseInt --> Convierte una cadena de texto en un número entero. (indicando en que base por defecto en 10)
+
+parseInt("25", 10);      // 25
+parseInt("101", 2);      // 5 (binario)
+parseInt("ff", 16);      // 255 (hexadecimal)
+parseInt("abc", 10);     // NaN
+
+
 
 */
 

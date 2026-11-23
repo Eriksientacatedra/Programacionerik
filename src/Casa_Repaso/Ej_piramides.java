@@ -19,6 +19,9 @@ public class Ej_piramides {
 		piramide2(base);
 		System.out.println("");
 		piramide3(base);
+		System.out.println("");
+		piramide4(base);
+		
 		
 		scanner.close();
 	}
@@ -56,7 +59,18 @@ public class Ej_piramides {
 		    for(int pp=0; pp<=i; pp++) {
 		        System.out.print("*");
 		    }
-		    System.out.println("");}
+		    System.out.println("");}}
+		
+		public static void piramide4(int num) { //Con este sale en espejo
+			
+			for(int i=1; i<=num; i++) {
+			    for(int pp=1; pp<=num-i; pp++) { // sirve para que los espacios vayan disminuyendo
+			        System.out.print(" ");
+			    }
+			    for(int pp=1; pp<=i+(i-1); pp++) {
+			        System.out.print("*");
+			    }
+			    System.out.println("");}
 			
 	}
 	
